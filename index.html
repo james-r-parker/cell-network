@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <canvas id="game"></canvas>
+        <div id="hud">
+            <div>
+                <button onclick="save(true)">💾</button>
+                <button onclick="discard()">🗑️</button>
+                <button onclick="window.location.reload()">🔄</button>
+            </div>
+            <div>
+                <label id="lblCells"></label>
+                <label id="lblBest"></label>
+                <label id="lblTable"></label>
+            </div>
+        </div>
+        <script src="brainz.js"></script>
+        <script src="utils.js"></script>
+        <script src="network.js"></script>
+        <script src="sensor.js"></script>
+        <script src="controls.js"></script>
+        <script src="cell.js"></script>
+        <script src="dish.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
